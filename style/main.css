@@ -137,19 +137,30 @@ img {
     flex-direction: column;
 }
 
-.secondfooterdiv {
+.FAQ {
     display: flex;
     font-size: 14px;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.socialicons {
+.wheretofind {
+    margin-left: 7px;
+}
+
+.socialiconsbox {
     display: flex;
-    background-color: rgb(255, 255, 255);
     color: white;
+    padding: 8px 0 0 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.socialicons {
+    background-color: white;
+    font-size: 13px;
+    margin-left: 7px;
     padding: 2px;
-    border-radius: 50px;
-    flex-wrap: wrap;
+    border-radius: 20%;
 }
 
