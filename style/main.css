@@ -65,7 +65,7 @@ img {
 
 .productscontainer {
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: space-between;
     height: 800px;
     gap: 20px;
@@ -83,20 +83,31 @@ img {
     color: white;
     font-size: 15px;
     padding: 10px;
-    margin: -620px 0 0 355px;
+    margin: -478px 0 0 258px;
 }
 
 .hoverheart {
     position: absolute;
     font-size: 15px;
     padding: 10px;
-    margin: -620px 0 0 355px;
+    margin: -478px 0 0 258px;
     display: none;
 }
 
 .product:hover .hoverheart {
     display: block;
 }
+
+.hoverimg {
+    position: absolute;
+    margin: -484px 0 0 0;
+    display: none;
+}
+
+.product:hover .hoverimg {
+    display: block;
+}
+
 
 .littlediscountbox {
     position: absolute;
